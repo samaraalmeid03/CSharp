@@ -2,7 +2,8 @@ using System;
 
 class Program {
     public static void Main (string[] args) {
-        int n1, n2, n3, n4, n5, soma, media;
+        int n1, n2, n3, n4, n5, soma;
+        double media;
 
         Console.Write("Digite o primeiro numero: ");
         n1 = int.Parse(Console.ReadLine());
